@@ -8,6 +8,7 @@ import { useModal } from "./hooks/useModal";
 import Modals from "./componentes/Modals"
 
 
+
 const App = () => {
     const [isOpenModal1,openModal,closeModal1] = useModal(false);
     return (

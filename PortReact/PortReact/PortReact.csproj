@@ -21,14 +21,18 @@
     <!-- Don't publish the SPA source files, but do show them in the project files list -->
     <Compile Remove="ClientApp\img\**" />
     <Compile Remove="ClientApp\src\componentes\NewFolder\**" />
+    <Compile Remove="ClientApp\src\Documentos\**" />
     <Content Remove="$(SpaRoot)**" />
     <Content Remove="ClientApp\img\**" />
     <Content Remove="ClientApp\src\componentes\NewFolder\**" />
+    <Content Remove="ClientApp\src\Documentos\**" />
     <EmbeddedResource Remove="ClientApp\img\**" />
     <EmbeddedResource Remove="ClientApp\src\componentes\NewFolder\**" />
+    <EmbeddedResource Remove="ClientApp\src\Documentos\**" />
     <None Remove="$(SpaRoot)**" />
     <None Remove="ClientApp\img\**" />
     <None Remove="ClientApp\src\componentes\NewFolder\**" />
+    <None Remove="ClientApp\src\Documentos\**" />
     <None Include="$(SpaRoot)**" Exclude="$(SpaRoot)node_modules\**" />
   </ItemGroup>
 
@@ -42,6 +46,8 @@
     <None Remove="ClientApp\img\suitcase.png" />
     <None Remove="ClientApp\img\twitter-sign.png" />
     <None Remove="ClientApp\img\whatsapp.png" />
+    <None Remove="ClientApp\src\Styles\img1.jpg" />
+    <None Remove="ClientApp\src\Styles\img2.jpg" />
   </ItemGroup>
 
   <Target Name="DebugEnsureNodeEnv" BeforeTargets="Build" Condition=" '$(Configuration)' == 'Debug' And !Exists('$(SpaRoot)node_modules') ">
