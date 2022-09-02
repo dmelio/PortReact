@@ -1,0 +1,363 @@
+﻿* {
+    margin: 0;
+}
+
+    body {
+    background-image: url(./fondo.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.contini {
+    text-align:center;
+}
+
+.margen {
+    margin: 10%;
+}
+
+.Container-title {
+    text-align: center;
+    border-bottom: 1px solid rgba(0, 0, 0, .05);
+}
+
+    .Container-title h5 {
+        color: white;
+    }
+
+    .Container-title h2 {
+        color: white;
+    }
+
+#btncv {
+    width: 200px;
+    align-self: center;
+}
+
+.rowbtncv {
+    padding: 3em;
+}
+
+.img1port {
+    content: url(./img1.jpg);
+    max-width: 300px;
+    max-height: 400px;
+    border-radius: 10%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.img2port {
+    content: url(./img2.jpg);
+    max-width: 350px;
+    max-height: 350px;
+    border-radius: 15%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    align-content: flex-end;
+}
+
+#btncv {
+    padding: 0.8em 1.8em;
+    border: 2px solid #913636;
+    position: relative;
+    overflow: hidden;
+    background-color: transparent;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 16px;
+    transition: .3s;
+    z-index: 1;
+    font-family: inherit;
+    color: white;
+}
+
+    #btncv::before {
+        content: '';
+        width: 0;
+        height: 300%;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%) rotate(45deg);
+        background: #d73838;
+        transition: .5s ease;
+        display: block;
+        z-index: -1;
+    }
+
+    #btncv:hover::before {
+        width: 105%;
+    }
+
+    #btncv:hover {
+        color: white;
+    }
+
+.icon img {
+    margin: 10px;
+}
+.iconExp {
+    content: url(./suitcase.png);
+}
+
+.iconGit {
+    content: url(./github.png);
+}
+
+.iconHob {
+    content: url(./joystick.png);
+}
+
+.container-aboutme {
+    text-justify: auto;
+    margin: 0 auto 1rem;
+    padding: 5em 0 1em;
+    text-align: center;
+    border-bottom: 1px solid rgba(0, 0, 0, .05);
+}
+
+.titabout {
+    padding-bottom: 2em;
+    color: white;
+}
+
+.cont-presentacion {
+    text-align: justify;
+    padding: 1em;
+    border-bottom: 1px solid rgba(0, 0, 0, .05);
+}
+
+    .cont-presentacion p {
+        color: white;
+    }
+
+.contcirculos {
+    align-self: center;
+}
+
+.exp {
+    margin: 10%;
+    align-self: center;
+    background-color: #913636;
+    height: 180px;
+    border-radius: 5%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.aboutsectit {
+    padding-top: 10px;
+    font-size: small;
+    color: white;
+}
+
+.aboutsecexp {
+    padding-top: 5px;
+    font-size: small;
+    color: white;
+}
+
+.titlecon {
+    padding: 1em;
+    color: white;
+    text-align: center;
+}
+
+.Container-skills {
+    position: relative;
+}
+
+
+.Cont-skills {
+    display: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% -50%);
+    padding: 1em;
+    margin: 10px;
+    background-color: #913636;
+    border-radius: 2%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.titskills {
+    text-align: center;
+    color: white;
+    padding-top: 20px;
+}
+
+.list-skills {
+    margin: 10%;
+    padding: 5px;
+    text-align: center;
+}
+
+    .list-skills li {
+        padding-left: 10%;
+        font-size: 22px;
+        color: white;
+    }
+
+    .list-skills h5 {
+        font-size: 18px;
+        padding-bottom: 20px;
+        color: white;
+    }
+
+.explab {
+    position: relative;
+}
+
+.titexp {
+    text-align: center;
+    font-size: 30px;
+    padding: 2em;
+    color: white
+}
+
+.box-exp {
+    display: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% -50%);
+    border-bottom-left-radius: 5%;
+    border-bottom-right-radius: 5%;
+    height: 500px;
+    background-color: #913636;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.exptit {
+    font-size: 25px;
+    text-align: center;
+    padding: 1em;
+    color: white;
+}
+
+.box-exp .rowtit {
+    border-bottom-left-radius: 5%;
+    border-bottom-right-radius: 5%;
+    background-color: #d73838;
+}
+
+.empresatit {
+    text-align: center;
+    padding: 10px;
+    color: white;
+}
+
+.textexp {
+    color: white;
+    text-align: justify;
+    padding: 1em;
+}
+
+.listTareas {
+    text-align: justify;
+}
+
+    .listTareas li {
+        padding-bottom: 1em;
+        padding-right: 10%;
+    }
+
+
+.modal {
+    position: fixed;
+    z-index:999;
+    top:0;
+    left:0;
+    width: 100%;
+    background-color:rgba(0,0,0,0.75);
+    display:none;
+    justify-content:center;
+    align-items: center;
+}
+
+    .modal.is-open {
+        display: flex;
+    }
+
+.modal_container {
+    width: 90%;
+    background-color: rgb(20, 20, 20);
+    margin: auto;
+    max-height: 90%;
+    max-width: 600px;
+    border-radius: 6px;
+    padding: 2em 2.5em;
+    gap: 1em;
+    place-items: center;
+    grid-auto-columns: 100%;
+    color: #fff;
+}
+
+.modal_title {
+    font-size: 2.5rem;
+    color: #fff;
+}
+
+.modal_close {
+    padding: 0.8em 1.8em;
+    border: 2px solid #913636;
+    position: relative;
+    overflow: hidden;
+    background-color: transparent;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 16px;
+    transition: .3s;
+    z-index: 1;
+    font-family: inherit;
+    color: white;
+}
+
+.btnCont {
+    text-align: center;
+}
+
+
+
+.modal_close::before {
+    content: '';
+    width: 0;
+    height: 300%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(45deg);
+    background: #d73838;
+    transition: .5s ease;
+    display: block;
+    z-index: -1;
+}
+
+.modal_close:hover::before {
+    width: 105%;
+}
+
+.modal_close {
+    color: white;
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+}
+
+.btnsend {
+    padding: 0.8em 1.8em;
+    border: 2px solid #913636;
+    position: relative;
+    overflow: hidden;
+    background-color: transparent;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 16px;
+    transition: .3s;
+    z-index: 1;
+    font-family: inherit;
+    color: white;
+}
+/*
+.emailBtn {
+    content: url(./gmail-logo.png);
+    width: 30px;
+}
+*/
